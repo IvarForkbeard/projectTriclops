@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"treemanshappyfuntimegame",
+  "%Name":"projectTriclops",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -34,7 +34,7 @@
   "MetaData":{
     "IDEVersion":"2024.11.0.179",
   },
-  "name":"treemanshappyfuntimegame",
+  "name":"projectTriclops",
   "resources":[
     {"id":{"name":"bebasNeue","path":"fonts/bebasNeue/bebasNeue.yy",},},
     {"id":{"name":"objBag","path":"objects/objBag/objBag.yy",},},
@@ -55,7 +55,9 @@
     {"id":{"name":"objWinner","path":"objects/objWinner/objWinner.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
     {"id":{"name":"rmSetup","path":"rooms/rmSetup/rmSetup.yy",},},
-    {"id":{"name":"scrScripts","path":"scripts/scrScripts/scrScripts.yy",},},
+    {"id":{"name":"scrGrid","path":"scripts/scrGrid/scrGrid.yy",},},
+    {"id":{"name":"scrMiscellaneous","path":"scripts/scrMiscellaneous/scrMiscellaneous.yy",},},
+    {"id":{"name":"scrSetup","path":"scripts/scrSetup/scrSetup.yy",},},
     {"id":{"name":"blockMove5","path":"sounds/blockMove5/blockMove5.yy",},},
     {"id":{"name":"golfClap6","path":"sounds/golfClap6/golfClap6.yy",},},
     {"id":{"name":"theme","path":"sounds/theme/theme.yy",},},

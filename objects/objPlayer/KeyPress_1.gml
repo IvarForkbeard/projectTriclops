@@ -11,35 +11,25 @@ switch keyboard_key{
         dx = -1
         dy = 0
         now ++
+        global.totalSteps ++
     break
     case vk_up:
         dx = 0
         dy = -1
         now ++
+        global.totalSteps ++
     break
     case vk_right:
         dx = 1
         dy = 0
         now ++
+        global.totalSteps ++
     break
     case vk_down:
         dx = 0
         dy = 1
         now ++
-    break
-    case vk_space:
-        if now {
-          now --
-        }
-        for (i = 0; i < 10; i ++) {
-            for (j = 0; j < 10; j ++) {
-                focus = gridAt(i, j, now)
-                if focus == entity.player || focus == entity.player + entity.target{
-                    global.playerX = i
-                    global.playerY = j
-                }
-            }
-        }
+        global.totalSteps ++
     break
 }
 
@@ -66,6 +56,7 @@ for (i = 0; i < 10; i ++) {
             case entity.crate + entity.crate + entity.target: //crate on crate on target
                 //rewind time and reposition player
                 now --
+                global.totalSteps --
                 for (i = 0; i < 10; i ++) {
                     for (j = 0; j < 10; j ++) {
                         focus = gridAt(i, j, now)

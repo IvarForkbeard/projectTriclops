@@ -1,5 +1,6 @@
 //player pulls blocks around randomly to set up playable surface
 now = 999
+spacePause = 0
 for (i = 0; i <= now; i ++) {
     dx = 0
     dy = 0
