@@ -1,1 +1,4 @@
-//this is a room to set up the entire game, it only is called once and then moves on to the actual game room
+//reset global counters in case someone has aborted a level
+global.totalSteps = 0
+global.level = 0
+global.elapsedTime = 0

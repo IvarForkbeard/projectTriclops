@@ -1,3 +1,6 @@
+//leaderboard testing code
+LootLockerInitialize("dev_b1ce80cdd57e4a3495dfd55ae974ac84", "000.001", "true", "30505");
+
 //setup screen
 window_set_size(640, 960)
 
@@ -11,11 +14,8 @@ enum entity {
     player = 7,
     crate = 15
 }
-global.level = 0
 global.playgrid[0][0][0] = entity.wall
-global.elapsedTime = 0
 global.levelToWin = 32
-global.totalSteps = 0
 
 //
 //
