@@ -1,8 +1,8 @@
 /// @description
 
-random_set_seed(6)
-if !audio_is_playing(theme){
-    audio_play_sound(theme, 5, true)
-}
+global.theme = 6
+random_set_seed(global.theme)
+audio_stop_all()
+audio_play_sound(musPoop, 5, true)
 object_set_sprite(objCrate, sprPoop)
 room_goto(rmGame)

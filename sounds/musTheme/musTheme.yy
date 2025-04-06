@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"theme",
+  "%Name":"musTheme",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":140.78258,
-  "name":"theme",
+  "name":"musTheme",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"theme.ogg",
+  "soundFile":"musTheme.ogg",
   "type":0,
   "volume":1.0,
 }

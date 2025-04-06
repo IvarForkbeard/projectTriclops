@@ -16,10 +16,7 @@ for (i = 0; i < 10; i ++) {
 
 // Display info text
 window_set_caption(GAMENAME)
-draw_set_font(bebasNeue)
-draw_set_halign(fa_center)
-draw_set_colour(c_yellow)
-draw_text(320, 660, GAMENAME)
+draw_text(320, 660, "Theme: " + global.themes[global.theme])
 draw_text(320, 700, "Levels Remaining: " + string(global.levelToWin - global.level))
 draw_text(320, 740, "Steps this level: " + string(now - 999))
 draw_text(320, 780, "Steps total: " + string(global.totalSteps))

@@ -74,8 +74,8 @@ for (i = 0; i < 10; i ++) {
 // Increment level if the puzzle is complete
 if puzzleComplete() {
     global.level ++
-    if !audio_is_playing(golfClap6){
-        audio_play_sound(golfClap6, 4, false)
+    if !audio_is_playing(sndClapping){
+        audio_play_sound(sndClapping, 4, false)
     }
     alarm_set(0, 10)
 }
